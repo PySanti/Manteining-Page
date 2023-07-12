@@ -1,0 +1,51 @@
+.page{
+    display: flex;
+    width: 99vw;
+    height: 98vh;
+    align-items: center;
+    justify-content: center;
+}
+.main-container__title{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 550px;
+    margin-right: 2vw;
+}
+
+
+.main-container__content__p{
+    font-size: 16px;
+    margin-top : 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.error-img{
+    width: 20vw;
+    height: 20vh;
+    object-fit: contain;
+}
+
+.justified-paraph{
+    text-align: center;
+}
+
+
+@media (max-width:800px) {
+    .main-container__content__p{
+        margin-top : 4vh;
+    }
+    .error-img{
+        width: 25vw;
+        height: 25vh;
+    }
+}
