@@ -35,12 +35,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #f0f;
 }
 
 .error-img{
     object-fit: contain;
-    height: 100%;
-    width: 100%;
+    height: auto;
+    max-width: 100%;
 }
 
 @media (max-width: 700px) {
@@ -57,7 +58,7 @@
 }
 @media (max-width: 200px) {
     .error-img-container{
-        margin-top: 10vh;
+        margin-top: 25vh;
         height: 15vh;
         width: 50vw;
     }
