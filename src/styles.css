@@ -40,9 +40,9 @@
 }
 
 .image{
-    object-fit: contain;
-    height: auto;
-    max-width: 100%;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
 }
 
 @media (max-width:700px) {
