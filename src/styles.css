@@ -4,13 +4,12 @@
 }
 .page {
     display: flex;
-    width: 99vw;
-    height: 98vh;
     align-items: center;
     justify-content: center;
 }
 .main-container {
     --margin: 10vw;
+    margin-top: 15vh;
     display: flex;
     flex-direction: column;
     align-items: center;
