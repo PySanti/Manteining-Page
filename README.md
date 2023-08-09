@@ -1,3 +1,3 @@
 # Manteining-Page
 
-Page made as an intern for (https://www.zed.com/es/)[zed group]
+Page made as an intern for [zed group](https://www.zed.com/es/)
